@@ -1,11 +1,15 @@
 html {
   box-sizing: border-box;
   color: #2f2d13;
-  font-family: sans-serif;
+  font: normal 100%/1.5 sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0px;
 }
 
 h1 h2 {
@@ -24,8 +28,12 @@ h1 {
   color: #ffffff;
   padding: 1.5em;
   margin: 0;
+  font-size: 1em;
 }
 
+.chinese{
+  font-size: 3em;
+}
 
 a {
   color: #ffffff;
@@ -33,11 +41,24 @@ a {
 
 nav {
   background-color: #222222;
-  list-style-type: none;
   padding: 1em;
-
+color: white;
 }
 
+ol {
+  list-style-type: none;
+  margin: 0;
+}
+
+.dr {
+  float: left;
+  width: 50%;
+}
+
+.ro {
+  float: left;
+  width: 50%;
+}
 
 .banner {
   width: 100%;
@@ -45,10 +66,19 @@ nav {
 
 .figure1 {
   margin: 0;
-  padding-top: 0em;
+  padding: 0em;
 }
 
+.shengxiao {
+  position: relative;
+  top: -1.8em;
+  font-style: italic;
+  font-size: 1.8em;
+  text-align: center;
+  color: #ffffff;
+}
 
-body {
-  margin: 0px;
+p {
+  margin: 0;
+  padding: 0em 0.5em 0em 0.5em;
 }
