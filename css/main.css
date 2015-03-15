@@ -81,7 +81,7 @@ nav ol {
 
 .shengxiao {
   position: relative;
-  top: -1.8em;
+  top: -2em;
   font-style: italic;
   font-size: 1.8em;
   text-align: center;
@@ -91,34 +91,72 @@ nav ol {
 p {
   margin: 0;
   padding: 0em 0.5em 0em 0.5em;
+
 }
 
-h2{
+h2 {
   margin: 0;
 }
 
-.yellow{
+.yellow {
   margin: 0;
+  
   background-color: #e4c22a
 
 }
 
-.black{
+.ds {
+  width: 50%;
+}
+
+.dragon {
+  width: 50%;
+  float: right;
+}
+
+.black {
   margin: 0;
   background: #222222;
 
 }
 
-.red{
+.gs {
+  width: 50%;
+}
+
+.goat {
+    width:50%;
+    float: right;
+}
+
+.red {
   margin: 0;
   background-color: #bc0017;
 }
 
-.yellow{
-  background-color: #e4c22a;
+.rs{
+  width: 50%;
 }
 
-footer{
+.rooster{
+  width: 50%;
+  float: right;
+}
+
+.oxs{
+  width: 50%;
+}
+
+.os{
+  width: 50%;
+  float: right;
+}
+
+
+
+
+
+footer {
   background-color: #222222;
   color: #ffffff;
   text-align: center;
