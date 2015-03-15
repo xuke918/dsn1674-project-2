@@ -8,10 +8,47 @@ html {
   box-sizing: inherit;
 }
 
-h1 h2{
+h1 h2 {
   font-family: 'Noto Sans', sans-serif;
 }
 
-body{
+header {
+  text-align: center;
+  background-color: #e7001d;
+
+}
+
+
+
+h1 {
+  color: #ffffff;
+  padding: 1.5em;
+  margin: 0;
+}
+
+
+a {
+  color: #ffffff;
+}
+
+nav {
+  background-color: #222222;
+  list-style-type: none;
+  padding: 1em;
+
+}
+
+
+.banner {
+  width: 100%;
+}
+
+.figure1 {
+  margin: 0;
+  padding-top: 0em;
+}
+
+
+body {
   margin: 0px;
 }
