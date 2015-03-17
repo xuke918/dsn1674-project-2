@@ -50,15 +50,16 @@ nav {
 nav a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1em;
 
 }
 
 nav ol {
   list-style-type: none;
   margin: 0;
-
+  padding: 0;
 }
+
 
 .dr {
   float: left;
@@ -77,15 +78,17 @@ nav ol {
 .figure1 {
   margin: 0;
   padding: 0em;
+  position: relative;
 }
 
 .shengxiao {
-  position: relative;
-  top: -2em;
+  position: absolute;
+  top: 4em;
   font-style: italic;
   font-size: 1.8em;
   text-align: center;
   color: #ffffff;
+  width: 100%;
 }
 
 p {
@@ -96,23 +99,41 @@ p {
 
 h2 {
   margin: 0;
+  text-align: center;
+}
+
+
+
+.d {
+  overflow: hidden;
+
 }
 
 .yellow {
   margin: 0;
-  
+  padding: 0em;
   background-color: #e4c22a
 
 }
 
 .ds {
   width: 50%;
+  position: relative;
 }
 
 .dragon {
   width: 50%;
+  position: relative;
   float: right;
 }
+
+.m {
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+
 
 .black {
   margin: 0;
@@ -129,6 +150,13 @@ h2 {
     float: right;
 }
 
+.g {
+  color: #fff;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 .red {
   margin: 0;
   background-color: #bc0017;
@@ -143,6 +171,12 @@ h2 {
   float: right;
 }
 
+.deep{
+  color: #fff;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 .oxs{
   width: 50%;
 }
@@ -152,7 +186,10 @@ h2 {
   float: right;
 }
 
-
+.per{
+  text-align: center;
+  padding-bottom: 10px;
+}
 
 
 
