@@ -19,9 +19,21 @@ h1 h2 {
 header {
   text-align: center;
   background-color: #e7001d;
+  position: relative;
+}
+
+.me{
+  margin: 0;
 
 }
 
+.medallion{
+  position: absolute;
+  width: 16%;
+  top: 10px;
+  right: 140px;
+
+}
 
 
 h1 {
@@ -31,12 +43,14 @@ h1 {
   font-size: 1em;
   text-align: center;
 
+
 }
 
 .chinese{
   font-size: 4em;
-  position: relative;
+
   top: -0.5em;
+
 
 }
 
@@ -59,6 +73,7 @@ nav ol {
   margin: 0;
   padding: 0;
 }
+
 
 
 .dr {
@@ -103,7 +118,6 @@ h2 {
 }
 
 
-
 .d {
   overflow: hidden;
 
@@ -130,7 +144,8 @@ h2 {
 .m {
   font-style: italic;
   text-align: center;
-  padding-bottom: 10px;
+  padding: 10px;
+  font-size: 0.75em;
 }
 
 
@@ -147,14 +162,15 @@ h2 {
 
 .goat {
     width:50%;
-    float: right;
+    float: left;
 }
 
 .g {
   color: #fff;
   font-style: italic;
   text-align: center;
-  padding-bottom: 10px;
+  padding: 10px;
+  font-size: 0.75em;
 }
 
 .red {
@@ -174,7 +190,9 @@ h2 {
 .deep{
   color: #fff;
   text-align: center;
-  padding-bottom: 10px;
+  padding: 10px;
+  font-style: italic;
+  font-size: 0.75em;
 }
 
 .oxs{
@@ -183,12 +201,14 @@ h2 {
 
 .os{
   width: 50%;
-  float: right;
+  float: left;
 }
 
 .per{
   text-align: center;
-  padding-bottom: 10px;
+  padding: 10px;
+  font-style: italic;
+  font-size: 0.75em;
 }
 
 
@@ -198,6 +218,6 @@ footer {
   color: #ffffff;
   text-align: center;
   text-decoration: underline;
-  padding: 2em;
-  font-size: 1.5em;
+  padding: 1em;
+  font-size: 1em;
 }
